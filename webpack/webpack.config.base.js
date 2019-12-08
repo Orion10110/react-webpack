@@ -11,7 +11,7 @@ module.exports = merge({
     publicPath: '/'
   },
   resolve: {
-    extensions: ['.ts', '.tsx', '.js', '.jsx', '.json', '.sass', '.scss'],
+    extensions: ['.js', '.jsx', '.json', '.sass', '.scss'],
     modules: [utils.resolve('src'), 'node_modules']
   }
 },

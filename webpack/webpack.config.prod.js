@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
 'use strict'
 import css from './modules/css-prod'
 
