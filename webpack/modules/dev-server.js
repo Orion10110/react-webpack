@@ -1,7 +1,7 @@
-const HOST = 'localhost'
-const PORT = 8083
+const HOST = 'localhost';
+const PORT = 8083;
 
-export default {
+module.exports = {
   devServer: {
     clientLogLevel: 'warning',
     contentBase: 'dist',
@@ -15,4 +15,4 @@ export default {
     hot: true,
     quiet: true
   }
-}
+};

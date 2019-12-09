@@ -1,6 +1,7 @@
-const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+// eslint-disable-next-line import/no-extraneous-dependencies
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
-export default {
+module.exports = {
   module: {
     rules: [
       {
@@ -18,4 +19,4 @@ export default {
       filename: 'main.css'
     })
   ]
-}
+};

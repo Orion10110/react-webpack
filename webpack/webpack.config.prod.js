@@ -1,8 +1,6 @@
-'use strict'
-import css from './modules/css-prod'
-
-const merge = require('webpack-merge')
-const baseConfig = require('./webpack.config.base')
+const merge = require('webpack-merge');
+const css = require('./modules/css-prod');
+const baseConfig = require('./webpack.config.base');
 
 module.exports = merge(baseConfig, css, {
   mode: 'production',
@@ -17,4 +15,4 @@ module.exports = merge(baseConfig, css, {
       }
     }
   }
-})
+});

@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   module: {
     rules: [{
       test: /\.(css|s[ac]ss)$/,
@@ -12,4 +12,4 @@ export default {
       ]
     }]
   }
-}
+};
